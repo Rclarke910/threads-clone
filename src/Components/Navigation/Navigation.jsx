@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Images/realXlogo.png';
+import logo from '../../Images/realowllogo.png';
 import {Box} from "@mui/material";
 import {navigation} from "./Navbar";
 
@@ -9,7 +9,7 @@ const Navigation = () => {
             <div className="h-screen sticky top-0">
                 <div>
                     <div className="py-5">
-                        <Box component="img" src={logo} alt="Xlogo" sx={{ height: '30px', width: "30px"}} />
+                        <Box component="img" src={logo} alt="Xlogo" className="h-16 w-16" />
 
                     </div>
                     <div className="space-y-6">
