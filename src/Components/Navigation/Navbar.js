@@ -41,7 +41,7 @@ export const navigation= [
     },
     {
         title: "Verified",
-        icono: <VerifiedIcon/>,
+        icon: <VerifiedIcon/>,
         path:"/verified"
     },
     {
